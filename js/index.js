@@ -2,24 +2,24 @@
 
 	'use strict';
 
-    /*---------------*/
+	/*---------------*/
 
-    if (!window.requestAnimationFrame) {
-	    window.requestAnimationFrame = (function() {
-	        return window.webkitRequestAnimationFrame ||
-	            window.mozRequestAnimationFrame ||
-	        	window.oRequestAnimationFrame ||
-	            window.msRequestAnimationFrame ||
-	            function(callback, element) {
-	                window.setTimeout(callback, 1000 / 60);
-	        	};
-	    })();
+	if (!window.requestAnimationFrame) {
+		window.requestAnimationFrame = (function() {
+			return window.webkitRequestAnimationFrame ||
+			window.mozRequestAnimationFrame ||
+			window.oRequestAnimationFrame ||
+			window.msRequestAnimationFrame ||
+			function(callback, element) {
+				window.setTimeout(callback, 1000 / 60);
+			};
+		})();
 	}
 
 	// from http://stackoverflow.com/a/6466243/2011404
 	function pad (str, max) {
-	  	str = str.toString();
-	  	return str.length < max ? pad("0" + str, max) : str;
+		str = str.toString();
+		return str.length < max ? pad("0" + str, max) : str;
 	}
 
 	function css(element, property) {
@@ -267,47 +267,47 @@
 			3) Acabou contagem, transiciona.
 			4) Acabou transição? Aparece novo slide.
 
-		*/
+*/
 
-		_startSlider: function() {
+_startSlider: function() {
 
-			var self = this;
-			var currSlide = this.sld[this.current];
-			var currNavItem = this.navItens[this.current];
-			var currBgSlide = this.bgSld[this.current];
-			var currBgSldImage = currBgSlide.querySelector('.bi__imgCont-img');
+	var self = this;
+	var currSlide = this.sld[this.current];
+	var currNavItem = this.navItens[this.current];
+	var currBgSlide = this.bgSld[this.current];
+	var currBgSldImage = currBgSlide.querySelector('.bi__imgCont-img');
 
-			console.log('Começa contagem do slide ' + this.current + '.');
+	console.log('Começa contagem do slide ' + this.current + '.');
 
-			animateCurrNavItem(currNavItem);
-			classie.addClass(currSlide, 'active-slide');
+	animateCurrNavItem(currNavItem);
+	classie.addClass(currSlide, 'active-slide');
 
-			/*++++*/
+	/*++++*/
 
-			function animateCurrNavItem (el) {
-				
-				classie.addClass(el, 'active');
-				el.querySelector('.li__info').style.opacity = 0.3;
-				el.querySelector('.li__info-mask').style.opacity = 1;
+	function animateCurrNavItem (el) {
+		
+		classie.addClass(el, 'active');
+		el.querySelector('.li__info').style.opacity = 0.3;
+		el.querySelector('.li__info-mask').style.opacity = 1;
 
-				TweenMax.to(el.querySelector('.li__info-mask'), self.sldInterval/1000, {
-					width: '100%', ease: Linear.easeNone,
-					onComplete: function () {
-						console.log('Agora, aciona as transições.');
-						slidesTransitions();
-					}
-				});
-
+		TweenMax.to(el.querySelector('.li__info-mask'), self.sldInterval/1000, {
+			width: '100%', ease: Linear.easeNone,
+			onComplete: function () {
+				console.log('Agora, aciona as transições.');
+				slidesTransitions();
 			}
+		});
 
-			function slidesTransitions () {
+	}
 
-				var nextIndex = self.current < self.imagesCount - 1 ? ++self.current : 0;
-				
-				classie.removeClass(currSlide, 'active-slide');
-				classie.removeClass(currNavItem, 'active');
+	function slidesTransitions () {
 
-				TweenMax.set(currBgSlide, { top: 0, bottom: 'inherit' });
+		var nextIndex = self.current < self.imagesCount - 1 ? ++self.current : 0;
+		
+		classie.removeClass(currSlide, 'active-slide');
+		classie.removeClass(currNavItem, 'active');
+
+		TweenMax.set(currBgSlide, { top: 0, bottom: 'inherit' });
 
 				// Reset navigation item
 				currNavItem.querySelector('.li__info').style.opacity = 0.7;
@@ -365,9 +365,45 @@
 
 	};
 
+	function buscaEndereco(cep, nome) {
+		cep = cep.replace(/\D/g, '');
+    //Verifica se campo cep possui valor informado.
+    if (cep != '') {
+        //Consulta o webservice viacep.com.br/
+        $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function (dados) {
+        	if (!("erro" in dados)) {
+                //Atualiza os campos com os valores da consulta.
+                $("#rua" + "_" + nome).val(dados.logradouro);
+                $("#cidade" + "_" + nome).val(dados.localidade);
+                $("#estado" + "_" + nome).val(dados.uf);
+                $("#bairro" + "_" + nome).val(dados.bairro);
+                $("#numero" + "_" + nome).focus();
+                //console.log(dados)
+            } else {
+            	console.log('erro')
+            	$("#cep" + "_" + nome).val("");
+            	$("#rua" + "_" + nome).val("");
+            	$("#cidade" + "_" + nome).val("");
+            	$("#estado" + "_" + nome).val("");
+            	$("#bairro" + "_" + nome).val("");
+            	$("#cep" + "_" + nome).focus();
+            	alert("CEP não encontrado.");
+            }
+        }); //end if.
+    } else {
+    	alert('Digite um número de cep válido.');
+    	$("#cep" + "_" + nome).val("");
+    	$("#rua" + "_" + nome).val("");
+    	$("#cidade" + "_" + nome).val("");
+    	$("#estado" + "_" + nome).val("");
+    	$("#bairro" + "_" + nome).val("");
+    	$("#cep" + "_" + nome).focus();
+    }
+}
 
-	/*---------------*/
 
-	var s = new TSlider();
+/*---------------*/
+
+var s = new TSlider();
 
 })();
