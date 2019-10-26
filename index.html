@@ -42,7 +42,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#mypage">DailyCrop</a>
+        <a class="navbar-brand" href="#mypage">DailyCrop - Welcome Nasa User</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
        <ul class="nav navbar-nav navbar-right">
@@ -57,21 +57,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  </div><!--/.nav-collapse -->
 </div>
 </nav>
-<!-- /Fixed navbar -->	
+<!-- /Fixed navbar -->  
 <div class="banner" id="mypage">
-	<div id="content">
+  <div id="content">
         <div id="slider">
            <img src="images/banner1.jpg" alt="Food" data-url="#1">
            <img src="images/banner2.jpg" alt="Everywhere" data-url="#2">
            <img src="images/banner3.jpg" alt="For" data-url="#3">
            <img src="images/banner4.jpg" alt="Everyone" data-url="#4">
        </div>
-   </div>	
+   </div> 
 </div>
 <div class="w3ls"></div>
 <div class="content-section-a">
-	<div class="container">
-		<div class="row">
+  <div class="container">
+    <div class="row">
             <div class="col-lg-5 col-sm-6">
                 <div class="content1">
                  <h3 class="section-heading slideanim">Agricultura inteligente!</h3>
@@ -95,16 +95,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <div class="w3ls"></div>
 <div class="content-section-b">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
-				<div class="content2">
-					<h3 class="section-heading slideanim">Nossa Proposta:</h3>
-					<hr class="section-heading-spacer slideanim">
-					<div class="clearfix"></div>
-					<p class="lead slideanim">A nobre tarefa de produzir alimentos ao alcançe de suas mãos, estabelecendo o uso sustentável da Terra, diminuindo disperdícios, visando melhorar o manejo da água e produzindo oportunidades econômicas locais.</p>
-				</div>
-			</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+        <div class="content2">
+          <h3 class="section-heading slideanim">Nossa Proposta:</h3>
+          <hr class="section-heading-spacer slideanim">
+          <div class="clearfix"></div>
+          <p class="lead slideanim">A nobre tarefa de produzir alimentos ao alcançe de suas mãos, estabelecendo o uso sustentável da Terra, diminuindo disperdícios, visando melhorar o manejo da água e produzindo oportunidades econômicas locais.</p>
+        </div>
+      </div>
             <div class="col-lg-5 col-sm-pull-6 col-sm-6 slideanim">
                 <ul class="grid cs-style">
                  <li>
@@ -285,7 +285,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- /Irrigação -->
 <!-- Portfolio Grid Section -->
 <section id="fitossanidade">
-	<h3 class="text-center slideanim">Como vamos lhe ajudar</h3>
+  <h3 class="text-center slideanim">Como vamos lhe ajudar</h3>
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
@@ -376,7 +376,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 </div>
 <div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content">
+  <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
                 <div class="rl"></div>
@@ -423,8 +423,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <!-- Adubo -->
 <div class="content-section-a" id="adubo">
-	<div class="container">
-		<div class="row">
+  <div class="container">
+    <div class="row">
             <div class="col-lg-5 col-sm-6">
                 <div class="content3">
                  <h3 class="section-heading slideanim">#ZeroDisperdício</h3>
@@ -464,65 +464,98 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <div class="container">
     <div class="row">
       <div class="col-lg-12 slideanim">
-        <form action="#" method="post">
+        <form name="sentMessage" id="contactForm" method="post">
           <div class="row">
             <div class="form-group col-lg-4">
-              <label>Nome</label>
-              <input type="text" name="name" class="form-control" placeholder="">
+              <label>Nome*</label>
+              <input type="text" name="nome" class="form-control" placeholder="Nome" required>
+          </div>
+          <div class="form-group col-lg-4">
+              <label>Email*</label>
+              <input type="email" name="email" class="form-control" placeholder="E-mail" required>
           </div>
           <div class="form-group col-lg-4">
               <label>CEP</label>
-              <input type="text" name="cep" id="cep" class="form-control" placeholder="" onchange="buscaEndereco(this.value,'')">
+              <input type="text" name="cep" id="cep" class="form-control" placeholder="CEP" onchange="buscaEndereco(this.value,'')">
           </div>
           <div class="form-group col-lg-4">
-              <label>Estado</label>
-              <input type="text" name="estado" id="estado_" class="form-control" placeholder="" required>
+              <label>Estado*</label>
+              <input type="text" name="estado" id="estado_" class="form-control" placeholder="Estado" required>
           </div>
           <div class="form-group col-lg-4">
-              <label>Cidade</label>
-              <input type="text" name="cidade" id="cidade_" class="form-control" placeholder="" required>
+              <label>Cidade*</label>
+              <input type="text" name="cidade" id="cidade_" class="form-control" placeholder="Cidade" required>
           </div>
           <div class="form-group col-lg-4">
-              <label>Bairro</label>
-              <input type="text" name="bairro" id="bairro_" class="form-control" placeholder="" required>
+              <label>Bairro*</label>
+              <input type="text" name="bairro" id="bairro_" class="form-control" placeholder="Bairro" required>
           </div>
           <div class="form-group col-lg-4">
-              <label>Rua</label>
-              <input type="text" name="rua" id="rua_" class="form-control" placeholder="" required>
+              <label>Rua*</label>
+              <input type="text" name="rua" id="rua_" class="form-control" placeholder="Rua" required>
           </div>
           <div class="form-group col-lg-4">
-              <label>Número</label>
-              <input type="text" name="numero" id="numero" class="form-control" placeholder="" required>
+              <label>Número*</label>
+              <input type="text" name="numero" id="numero_" class="form-control" placeholder="Número" required>
           </div>
           <div class="form-group col-lg-4">
-              <label>Celular</label>
-              <input type="tel" name="telefone" class="form-control" placeholder="" required>
+              <label>Celular*</label>
+              <input type="tel" name="telefone" class="form-control" placeholder="Celular" required>
           </div>
           <div class="form-group col-lg-4">
-              <label>Produto</label>
-              <select name="produto" class="form-control" style="font-color:black;" required>
+              <label>Produto*</label>
+              <select name="produto" class="form-control" required>
                   <option value=""></option>
-                  <option value="alface">Alface</option>
-                  <option value="tomate">Tomate</option>
-                  <option value="cebola">Cebola</option>
+                  <option  value="alface" style="color:black;">Alface</option>
+                  <option value="tomate" style="color:black;">Tomate</option>
+                  <option value="cebola" style="color:black;">Cebola</option>
               </select>
           </div>
           <div class="form-group col-lg-4">
-              <label>Tipo</label>
-              <select name="tipo" class="form-control" style="font-color:black;" required>
+              <label>Tipo*</label>
+              <select name="tipo" class="form-control" required>
                   <option value=""></option>
-                  <option value="doacao">Doação</option>
-                  <option value="venda">Venda</option>
+                  <option value="doacao" style="color:black;">Doação</option>
+                  <option class="form-control" value="venda" style="color:black;">Venda</option>
               </select>
+          </div>
+          <div class="form-group col-lg-4">
+              <label>Foto</label>
+              <div class="clearfix"></div>
+              <button class="btn btn-lg" disabled="">Imagem</button> 
           </div>
           <div class="clearfix"></div>
           <div class="form-group col-lg-12">
               <label>Descrição do produto produzido.</label>
-              <textarea name="message" class="form-control" rows="6" placeholder="" required></textarea>
+              <textarea name="mensagem" class="form-control" rows="6" placeholder="Descrição" required></textarea>
           </div>
           <div class="form-group col-lg-12">
               <button type="submit" class="btn btn-lg btn-outline">Enviar</button>
           </div>
+          <div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+           <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                    <h3>Alface</h3>
+                    <hr>
+                    <p style="font-size:3rem;">Pulgões - Pulverizar com uma solução à base de sabão de potássio a 1,5%.</p>
+                    <p style="font-size:3rem;">Fusariose - Elimine as plantas doentes.</p>
+                    <p style="font-size:3rem;">Míldio - Retire as folhas doentes. Desbaste o mais cedo possível. Cultive variedades resistentes.</p>
+                    <p><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        <button type="button" class="btn btn-default"> Visualizar Imagens</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
       </div>
   </form>
 </div>
@@ -655,6 +688,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 
 </script>
+<script src="js/contact_me.js"></script>
 <!-- /js files -->
 </body>
 </html>
