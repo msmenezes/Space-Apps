@@ -94,7 +94,7 @@ section {
 	padding:100px 0;
 }
 section.about-us {
-	background:url(../images/fog.jpg) no-repeat;
+	background:url(../img/fog.jpg) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -228,14 +228,14 @@ section.about-us p {
 /*-- /image-hover-style --*/
 .content-section-a {
     padding: 50px 0;
-    background:url(../images/leaf.jpg) no-repeat;
+    background:url(../img/leaf.jpg) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
 }
 .content-section-b {
     padding: 50px 0;
-	background:url(../images/rain.jpg) no-repeat;
+	background:url(../img/rain.jpg) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -273,7 +273,7 @@ p.lead {
 /*-- /after-about --*/
 /* Services */
 section.our-services {
-	background:url(../images/blur.jpg) no-repeat;
+	background:url(../img/blur.jpg) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -319,7 +319,7 @@ section.our-services p {
 }
 /*-- portfolio --*/
 section#portfolio {
-	background:url(../images/sky.jpg) no-repeat;
+	background:url(../img/sky.jpg) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -439,7 +439,7 @@ section#portfolio h3.text-center {
 /*-- /Portfolio --*/
 /*-- Blog --*/
 section.our-blog {
-	background:url(../images/blur.jpg) no-repeat;
+	background:url(../img/blur.jpg) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -577,7 +577,7 @@ section.contact-us .col-md-8.slideanim.slide iframe {
 /*-- /Contact-us --*/
 /*-- Contact-form --*/
 section.contact-form {
-	background:url(../images/green.jpg) no-repeat;
+	background:url(../img/green.jpg) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -792,7 +792,7 @@ footer .footer-below {
 /*-- /inner pages styling --*/	
 /*-- about page --*/
 section.team-w3ls {
-	background:url(../images/leaf.jpg) no-repeat;
+	background:url(../img/leaf.jpg) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -1248,7 +1248,7 @@ section.galleryitem-w3ls p.blog-p2 {
     color:#999;
 }
 section.item-w3ls {
-	background:url(../images/leaf.jpg) no-repeat;
+	background:url(../img/leaf.jpg) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;

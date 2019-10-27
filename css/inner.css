@@ -179,7 +179,7 @@ a:focus {
 }
 /* Testimonials Wrap */
 #twrap {
-	background: url(../images/t-back.jpg) no-repeat center top;
+	background: url(../img/t-back.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:60px;
 	text-align:center;
@@ -259,7 +259,7 @@ a:focus {
 }
 /* Contact Page */
 #contactwrap {
-	background: url(../images/contact.jpg) no-repeat center top;
+	background: url(../img/contact.jpg) no-repeat center top;
 	margin-top: -60px;
 	padding-top:0px;
 	text-align:center;

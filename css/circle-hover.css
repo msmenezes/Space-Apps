@@ -17,7 +17,7 @@
 .ch-info-wrap {
 	top: 20px;
 	left: 20px;
-	background: #f9f9f9 url(../images/bg.jpg);
+	background: #f9f9f9 url(../img/bg.jpg);
 	box-shadow: 
 		0 0 0 20px rgba(255,255,255,0.2), 
 		inset 0 0 3px rgba(115,114, 23, 0.8);
@@ -57,16 +57,16 @@
 	transition: all 0.4s ease-in-out 0.2s;
 }
 .ch-img-1 { 
-	background-image: url(../images/service1.jpg);
+	background-image: url(../img/service1.jpg);
 }
 .ch-img-2 { 
-	background-image: url(../images/service2.jpg);
+	background-image: url(../img/service2.jpg);
 }
 .ch-img-3 { 
-	background-image: url(../images/service3.jpg);
+	background-image: url(../img/service3.jpg);
 }
 .ch-img-4 { 
-	background-image: url(../images/service4.jpg);
+	background-image: url(../img/service4.jpg);
 }
 .ch-info h5 {
 	color: #fff;
