@@ -23,7 +23,7 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
@@ -109,7 +109,7 @@ margin-left: 4px;
 }
 	</style>
 </head>
-<body>
+<body background="<?= base_url('./img/login.jpg');  ?>">
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
@@ -146,10 +146,7 @@ margin-left: 4px;
 			</div>
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="#">Sign Up</a>
-				</div>
-				<div class="d-flex justify-content-center">
-					<a href="#">Forgot your password?</a>
+					just enter a username and password to login<a href="#"></a>
 				</div>
 			</div>
 		</div>

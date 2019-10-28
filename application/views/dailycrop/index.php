@@ -5,9 +5,9 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="eng">
 <head>
-  <title>App - Ajudar no plantio para otimizar e melhorar os alimentos| App :: Nasa</title>
+  <title>App - Help in planting to optimize and improve food | App :: Nasa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="keywords" content="Ajudar no plantio saudável, sustentável, inteligente e gratuíto para todos, pensando no futuro e principalmente nas camadas menos favorecidas da sociedade." />
@@ -47,11 +47,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       <div id="navbar" class="navbar-collapse collapse">
        <ul class="nav navbar-nav navbar-right">
          <li class="active"><a href="#mypage">Home</a></li>
-         <li><a href="#horta">Minha Horta</a></li>
-         <li><a href="#irrigacao">Irrigação</a></li>
-         <li><a href="#fitossanidade">Fitossanidade</a></li>
-         <li><a href="#adubo">Adubo Orgânico</a></li>
-         <li><a href="#compartilhe">Compartilhe sua produção </a></li>
+         <li><a href="#horta">My Garden</a></li>
+         <li><a href="#irrigacao">Irrigation</a></li>
+         <li><a href="#fitossanidade">Plant Health</a></li>
+         <li><a href="#adubo">Organic Fertilizer</a></li>
+         <li><a href="#compartilhe">Share Your Crops </a></li>
          <!--li><a href="contact.html">Contatos</a></li-->
        </ul>
      </div><!--/.nav-collapse -->
@@ -74,10 +74,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="row">
       <div class="col-lg-5 col-sm-6">
         <div class="content1">
-         <h3 class="section-heading slideanim">Agricultura inteligente!</h3>
+         <h3 class="section-heading slideanim">Smart agriculture!</h3>
          <hr class="section-heading-spacer slideanim">
          <div class="clearfix"></div>
-         <p class="lead slideanim">O futuro está ao seu alcançe, seja no fortalecimento da agricultura familiar ou no incentivo desta no meio urbano.</p>
+         <p class="lead slideanim">The future is within your reach, it being on the incentive of family farming or in the incentive of it in the urban environment.</p>
        </div>
      </div>
      <div class="col-lg-5 col-lg-offset-2 col-sm-6 slideanim">
@@ -99,10 +99,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="row">
       <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
         <div class="content2">
-          <h3 class="section-heading slideanim">Nossa Proposta:</h3>
+          <h3 class="section-heading slideanim">Our idea:</h3>
           <hr class="section-heading-spacer slideanim">
           <div class="clearfix"></div>
-          <p class="lead slideanim">A nobre tarefa de produzir alimentos ao alcançe de suas mãos, estabelecendo o uso sustentável da Terra, diminuindo disperdícios, visando melhorar o manejo da água e produzindo oportunidades econômicas locais.</p>
+          <p class="lead slideanim">The noble duty of producing food is within your hand's reach, establishing the sustainable use of the earth, decreasing wastes, making a better water usage and produce local economic opportunities.</p>
         </div>
       </div>
       <div class="col-lg-5 col-sm-pull-6 col-sm-6 slideanim">
@@ -120,7 +120,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="w3ls"></div>
 <!-- Horta -->
 <section class="our-blog" id="horta">
-  <h3 class="text-center slideanim">Biblioteca de plantas</h3>
+  <h3 class="text-center slideanim">Plant library</h3>
   <div class="container">
     <div class="row">
       <div class="col-md-3 col-xs-12">
@@ -134,15 +134,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
           <img src="img/blog1.jpg" alt="" class="img-responsive"/>
           <div class="mask">
-            <h5>Data do plantio</h5>
-            <p>Alface</p>
+            <h5>Planting date</h5>
+            <p>Lettuce</p>
           </div>
           </a>
           </div>
         </div>
         <div class="blog-content slideanim">
           <p class="p1"></p>
-          <h4>Ambiente aberto - 2 pés de alface.</p>
+          <h4>Open environment - 2 lettuce crops.</p>
           </div>
         </div>
         <div class="col-md-3 col-xs-12">
@@ -157,15 +157,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
           <img src="img/blog2.jpg" alt="" class="img-responsive"/>
           <div class="mask">
-            <h5>Data do plantio</h5>
-            <p>Alface</p>
+            <h5>Planting date</h5>
+            <p>Lettuce</p>
           </div>
           </a>
             </div>
           </div>  
           <div class="blog-content slideanim">
             <p class="p1"></p>
-            <h4>Ambiente aberto - 3 pés de tomate.</h4>
+            <h4>Open environment - 3 tomato crops.</h4>
           </div>
         </div>
         <div class="col-md-3 col-xs-12">
@@ -173,14 +173,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="view view-seventh slideanim">
               <img src="img/blog3.jpg" alt="" class="img-responsive"/>
               <div class="mask">
-                <h5>Data do plantio</h5>
-                <p>Alho</p>
+                <h5>Planting date</h5>
+                <p>Garlic</p>
               </div>
             </div>
           </div>  
           <div class="blog-content slideanim">
             <p class="p1"></p>
-            <a href="#"><h4>Ambiente coberto - 4 cabeças de alho.</h4></a>
+            <a href="#"><h4>Covered environment - 4 garlic heads.</h4></a>
           </div>
         </div>
         <div class="col-md-3 col-xs-12">
@@ -189,13 +189,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               <img src="img/blog4.jpg" alt="" class="img-responsive"/>
               <div class="mask">
                 <h5>Add</h5>
-                <p>Adicionar</p>
+                <p>Another</p>
               </div>
             </div>
           </div>  
           <div class="blog-content slideanim">
             <p class="p1"></p>
-            <a href="#"><h4>Adicinar outro</h4></a>
+            <a href="#"><h4>Add Another</h4></a>
           </div>
         </div>
       </div>
@@ -208,10 +208,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="row">
       <div class="col-lg-5 col-sm-6">
         <div class="content3">
-         <h3 class="section-heading slideanim">Qual a quantidade de água ideal para cada tipo de planta?</h3>
+         <h3 class="section-heading slideanim">What's the ideal amount of water for each type of plant?</h3>
          <hr class="section-heading-spacer slideanim">
          <div class="clearfix"></div>
-         <p class="lead slideanim">Acompanhe diariamente a necessidade de aguar sua planta.</p>
+         <p class="lead slideanim">Follow daily the need to water your plant.</p>
        </div>
      </div>
      <div class="col-lg-5 col-lg-offset-2 col-sm-6 slideanim">
@@ -240,13 +240,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
      <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <div class="modal-body">
-          <h3>Alface</h3>
+          <h3>Lettuce</h3>
           <hr>
-          <p style="font-size:3rem;">Pulgões - Pulverizar com uma solução à base de sabão de potássio a 1,5%.</p>
-          <p style="font-size:3rem;">Fusariose - Elimine as plantas doentes.</p>
-          <p style="font-size:3rem;">Míldio - Retire as folhas doentes. Desbaste o mais cedo possível. Cultive variedades resistentes.</p>
-          <p><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
-            <button type="button" class="btn btn-default"> Visualizar Imagens</button></p>
+          <p style="font-size:3rem;">Aphids - Spray with a 1.5% potassium soap-based solution.</p>
+          <p style="font-size:3rem;">Fusariosis - Eliminate diseased plants.</p>
+          <p style="font-size:3rem;">Mildew - Remove sick leaves. Thinning as soon as possible. Grow hardy varieties.</p>
+          <p><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            <button type="button" class="btn btn-default"> Viewing Images</button></p>
           </div>
         </div>
       </div>
@@ -308,20 +308,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                  <div class="row">
                   <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                      <?php if($cadastro[0]['produto'] == 'alface'){ ?>
-                      <h3>Alface</h3>
+                      <?php if($cadastro[0]['produto'] == 'Lettuce'){ ?>
+                      <h3>Lettuce</h3>
                       <hr>
-                      <p style="font-size:3rem;">Se você plantar hoje : <?php echo $cadastro[0]['data_plantio'] ? $cadastro[0]['data_plantio'] : "Não há plantação ainda."; ?></p>
-                      <p style="font-size:3rem;">Dia aproximado da colheita: <?php echo date('Y/m/d', strtotime("+7 weeks", strtotime($cadastro[0]['data_plantio']))) ?>;
-                      <p style="font-size:3rem;">O que deseja fazer : <?php echo $cadastro[0]['tipo']; ?> </p>
-                      <p style="font-size:3rem;">Sua planta deve estar parecida com esta no dia de hoje:</p>
+                      <p style="font-size:3rem;"> According to your planting: <?php echo $cadastro[0]['data_plantio'] ? $cadastro[0]['data_plantio'] : "Não há plantação ainda."; ?></p>
+                      <p style="font-size:3rem;">Approximate Harvest Day: <?php echo date('Y/m/d', strtotime("+7 weeks", strtotime($cadastro[0]['data_plantio']))) ?>;
+                      <p style="font-size:3rem;">What do you want to do : <?php echo $cadastro[0]['tipo']; ?> </p>
+                      <p style="font-size:3rem;">Your plant should look like this today:</p>
                       <figure>
                         <img src="img/blog1.jpg" alt="" class="img-responsive">
                       </figure>
-                      <p><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
-                        <button type="button" class="btn btn-default"> Visualizar Imagens</button></p>
+                      <p><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        <button type="button" class="btn btn-default"> Viewing Images</button></p>
                         <?php }else{ ?>
-                          <p style="font-size:3rem;">Você ainda não tem plantio.</p>
+                          <p style="font-size:3rem;">You have no planting yet.</p>
                         <?php } ?>
                       </div>
                     </div>
@@ -343,17 +343,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                       <?php if($cadastro[0]['produto'] == 'tomate'){ ?>
                       <h3>Tomato</h3>
                       <hr>
-                      <p style="font-size:3rem;">Se você plantar hoje : <?php echo $cadastro[0]['data_plantio'] ? $cadastro[0]['data_plantio'] : "Não há plantação ainda."; ?></p>
-                      <p style="font-size:3rem;">Dia aproximado da colheita: <?php echo date('Y/m/d', strtotime("+12 weeks", strtotime($cadastro[0]['data_plantio']))) ?>;
-                      <p style="font-size:3rem;">O que deseja fazer : <?php echo $cadastro[0]['tipo']; ?> </p>
-                      <p style="font-size:3rem;">Sua planta deve estar parecida com esta no dia de hoje:</p>
+                      <p style="font-size:3rem;"> According to your planting: <?php echo $cadastro[0]['data_plantio'] ? $cadastro[0]['data_plantio'] : "Não há plantação ainda."; ?></p>
+                      <p style="font-size:3rem;">Approximate Harvest Day: <?php echo date('Y/m/d', strtotime("+12 weeks", strtotime($cadastro[0]['data_plantio']))) ?>;
+                      <p style="font-size:3rem;">What do you want to do : <?php echo $cadastro[0]['tipo']; ?> </p>
+                      <p style="font-size:3rem;">Your plant should look like this today:</p>
                       <figure>
                         <img src="img/port2.jpg" alt="" class="img-responsive">
                       </figure>
-                      <p><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
-                        <button type="button" class="btn btn-default"> Visualizar Imagens</button></p>
+                      <p><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        <button type="button" class="btn btn-default"> Viewing Images</button></p>
                         <?php }else{ ?>
-                          <p style="font-size:3rem;">Você ainda não tem plantio.</p>
+                          <p style="font-size:3rem;">You have no planting yet.</p>
                         <?php } ?>
                       </div>
                     </div>
@@ -365,7 +365,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- /Irrigação -->
 <!-- Portfolio Grid Section -->
 <section id="fitossanidade">
-  <h3 class="text-center slideanim">Como vamos lhe ajudar</h3>
+  <h3 class="text-center slideanim">How we will help you</h3>
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
@@ -507,10 +507,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="row">
       <div class="col-lg-5 col-sm-6">
         <div class="content3">
-         <h3 class="section-heading slideanim">#ZeroDisperdício</h3>
+         <h3 class="section-heading slideanim">#ZeroWaste</h3>
          <hr class="section-heading-spacer slideanim">
          <div class="clearfix"></div>
-         <p class="lead slideanim">Para fazer uma pilha de compostagem, separe quantidades iguais de materiais úmidos e secos (folhas secas, serragem), dispondo-os em camadas e cortando o excesso em pedaços pequenos. A última camada deve conter materiais secos. Umedeça tudo e deixe o recipiente em área com luz solar.</p>
+         <p class="lead slideanim">To make a compost pile, separate equal quantities of damp and dry materials (dry leaves, sawdust), disposing them in layers and cutting the excess in small pieces. The last layer must contain dry materials. Damp everything and let the recipient in an area with sunlight.</p>
        </div>
      </div>
      <div class="col-lg-5 col-lg-offset-2 col-sm-6 slideanim">
@@ -528,8 +528,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- /Contact -->
 <!-- compartilhe -->
 <section class="contact-us col-md-12" id="compartilhe">
-  <h3 class="text-center slideanim">Compartilhe seu cultivo!</h3>
-  <p class="text-center slideanim">"Sozinhos vamos mais rápidos, juntos chegamos mais longe!</p>
+  <h3 class="text-center slideanim">Share your crops!</h3>
+  <p class="text-center slideanim">"Alone we go faster, together we go further"</p>
   <div class="container" id="compartilhe">
     <div class="row text-center">
       <div class="col-md-8 slideanim">
@@ -539,7 +539,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   </div>
 </section>
 <section class="contact-form">
-  <h3 class="text-center slideanim">Compartilhe sua produção</h3>
+  <h3 class="text-center slideanim">Share your crops</h3>
   <p class="text-center slideanim"></p>
   <div class="container">
     <div class="row">
@@ -547,7 +547,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <form action="<?= base_url('insertCadastro') ?>" name="sentMessage" id="contactForm" method="post">
           <div class="row">
             <div class="form-group col-lg-4">
-              <label>Nome*</label>
+              <label>Name*</label>
               <input type="text" name="nome" value="<?php echo $name; ?>" class="form-control" placeholder="Nome" required>
             </div>
             <div class="form-group col-lg-4">
@@ -555,61 +555,61 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               <input type="email" name="email" value="<?php echo $email; ?>" class="form-control" placeholder="E-mail" required>
             </div>
             <div class="form-group col-lg-4">
-              <label>CEP</label>
+              <label>Zip Code(BR)</label>
               <input type="text" name="cep" id="cep" class="form-control" placeholder="CEP" onchange="buscaEndereco(this.value,'')">
             </div>
             <div class="form-group col-lg-4">
-              <label>Estado*</label>
+              <label>State*</label>
               <input type="text" name="estado" id="estado_" class="form-control" placeholder="Estado" required>
             </div>
             <div class="form-group col-lg-4">
-              <label>Cidade*</label>
+              <label>City*</label>
               <input type="text" name="cidade" id="cidade_" class="form-control" placeholder="Cidade" required>
             </div>
             <div class="form-group col-lg-4">
-              <label>Bairro*</label>
+              <label>Neighbourhood*</label>
               <input type="text" name="bairro" id="bairro_" class="form-control" placeholder="Bairro" required>
             </div>
             <div class="form-group col-lg-4">
-              <label>Rua*</label>
+              <label>Street*</label>
               <input type="text" name="rua" id="rua_" class="form-control" placeholder="Rua" required>
             </div>
             <div class="form-group col-lg-4">
-              <label>Número*</label>
+              <label>Number*</label>
               <input type="text" name="numero" id="numero_" class="form-control" placeholder="Número" required>
             </div>
             <div class="form-group col-lg-4">
-              <label>Celular*</label>
+              <label>Cellphone number*</label>
               <input type="tel" name="telefone" class="form-control" placeholder="Celular" required>
             </div>
             <div class="form-group col-lg-4">
-              <label>Produto*</label>
+              <label>Product*</label>
               <select name="produto" class="form-control" required>
                 <option value=""></option>
-                <option  value="alface" style="color:black;">Alface</option>
-                <option value="tomate" style="color:black;">Tomate</option>
-                <option value="cebola" style="color:black;">Cebola</option>
+                <option  value="Lettuce" style="color:black;">Lettuce</option>
+                <option value="tomate" style="color:black;">Tomato</option>
+                <option value="Onion" style="color:black;">Onion</option>
               </select>
             </div>
             <div class="form-group col-lg-4">
-              <label>Tipo*</label>
+              <label>Type*</label>
               <select name="tipo" class="form-control" required>
                 <option value=""></option>
-                <option value="doacao" style="color:black;">Doação</option>
-                <option class="form-control" value="venda" style="color:black;">Venda</option>
+                <option value="doacao" style="color:black;">Donation</option>
+                <option class="form-control" value="venda" style="color:black;">Sale</option>
               </select>
             </div>
             <div class="form-group col-lg-4">
-              <label>Data do Plantio*</label>
-              <input type="date" name="data_plantio" class="form-control" placeholder="Data do Plantio" required>
+              <label>Planting Date*</label>
+              <input type="date" name="data_plantio" class="form-control" placeholder="Planting date" required>
             </div>
             <div class="clearfix"></div>
             <div class="form-group col-lg-12">
-              <label>Descrição do produto produzido.</label>
+              <label>Description of the crops.</label>
               <textarea name="mensagem" class="form-control" rows="6" placeholder="Descrição" required></textarea>
             </div>
             <div class="form-group col-lg-12">
-              <button type="submit" class="btn btn-lg btn-outline">Enviar</button>
+              <button type="submit" class="btn btn-lg btn-outline">Send</button>
             </div>
           </div>
         </form>
